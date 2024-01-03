@@ -1,0 +1,15 @@
+#hero {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 22px;
+	margin: 100px 230px 0;
+}
+
+#hero > p {
+	width: 55%;
+}
+
+#hero > button {
+}

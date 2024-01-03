@@ -1,0 +1,28 @@
+#how {
+	display: flex;
+	margin-top: 750px;
+	padding-bottom: 191px;
+	background: linear-gradient(180deg, rgba(242, 189, 185, 0.00) 0%, #F2BDB9 29.2%);
+	flex-direction: column;
+}
+
+#how > div {
+	width: 614px;
+	padding: 0px 260px;
+	z-index: 1;
+}
+
+#how > div > h1 {
+	color: var(--brown);
+}
+
+#how > div > p {
+	color: black;
+	font-family: 'Forum';
+}
+
+#how > svg:first-child {
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}

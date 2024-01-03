@@ -1,0 +1,59 @@
+#professionals {
+	display: inline-flex;
+	flex-direction: column;
+	place-items: center;
+	place-self: center;
+	gap: 118px;
+}
+
+#professionals > h1 {
+	color: var(--brown);
+}
+
+#card {
+	display: flex;
+	place-items: center;
+	gap: 149px;
+}
+
+#card > img {
+	width: 367px;
+}
+
+#card > div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+#card > div > p {
+	color: var(--brown);
+	font-family: 'Inter';
+	font-size: 20px;
+	width: 476px;
+}
+
+#card > div > #info {
+	display: flex;
+	gap: 28px;
+	place-items: center;
+	place-content: center;
+}
+
+#card > div > #info > ul {
+	display: flex;
+	gap: 14px;
+}
+
+#card > div > #info > ul > li {
+	list-style: none;
+	padding: 10px;
+	border-radius: 37px;
+	background: #FEE;
+}
+
+#card > div > #info > #contact {
+	display: flex;
+	gap: 10px;
+}

@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,6 +21,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --brown: #8A3C0C;
 }
 
 a {
@@ -19,21 +30,66 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	min-width: 320px;
+	min-height: 100vh;
+	overflow-x: hidden;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+	color: #FFF;
+	font-family: Forum;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+h2, h3 {
+	color: #8A3C0C;
+	font-family: Forum;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+h3 {
+	font-size: 48px;
+}
+
+p, li {
+	color: #FFF;
+	font-family: Orienta;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+a {
+	color: #624747;
+	font-family: Inter;
+	font-size: 16px;
+
+}
+
+small, .small {
+	color: #624747;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 button {
@@ -47,12 +103,38 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-primary {
+	border: 2px solid #FFF;
+	background: none;
+	border-radius: 0;
+	color: #FFF;
+	font-family: Orienta;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96%;
+}
+
+.btn-secondary {
+	background: none;
+	border-radius: 0;
+	background: #8A3C0C;
+	color: #F0B8B9;
+	font-family: Orienta;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96%;
 }
 
 @media (prefers-color-scheme: light) {
